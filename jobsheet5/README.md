@@ -10,4 +10,9 @@ Percobaan 2 : SWITCH-CASE untuk Mencetak KRS
 Pertanyaan 1 : Apa fungsi dari sintaks break?
 Jawaban : break berfungsi untuk menghentikan eksekusi switch-case setelah satu kondisi terpenuhi, agar program tidak menjalankan case-case berikutnya secara berurutan.
 
+Percobaan 2 : SWITCH-CASE untuk Mencetak KRS
+Pertanyaan 2 : Apa peran dari sintaks default pada struktur pemilihan SWITCH-CASE?
+Jawaban : default berfungsi untuk menangani semua nilai yang tidak sesuai dengan case yang ada, sehingga program tetap bisa memberikan respon yang logis dan tidak berhenti begitu saja.
+
+
 
