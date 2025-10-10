@@ -19,6 +19,14 @@ Pertanyaan 1 : Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan beb
 Jawaban : Jadi, jika mahasiswa menjawab "No" (atau “Tidak”), maka kondisi bebasKompen.equalsIgnoreCase("Ya") bernilai false.
 Karena itu, program langsung masuk ke bagian else, sehingga pesan yang ditampilkan adalah : Gagal! Mahasiswa masih memiliki tanggungan kompen
 
+Percobaan 3 : Nested IF untuk Mengecek Syarat Ujian Skripsi
+Pertanyaan 2 : Jelaskan maksud dari potongan kode berikut!
+                        if (bimbinganP1 >= 8 && bimbinganP2 >= 4) 
+Jawaban : Kode if (bimbinganP1 >= 8 && bimbinganP2 >= 4) digunakan untuk memastikan mahasiswa sudah memenuhi syarat minimal log bimbingan pada kedua pembimbing sebelum dinyatakan lulus atau berhasil mendaftar ujian skripsi.
+
+Log bimbingan = jumlah pertemuan atau catatan kegiatan bimbingan antara mahasiswa dan dosen pembimbing yang digunakan sebagai bukti dan syarat kelulusan bimbingan skripsi.
+
+
 
 
 
