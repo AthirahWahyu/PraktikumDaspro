@@ -21,10 +21,28 @@ Karena itu, program langsung masuk ke bagian else, sehingga pesan yang ditampilk
 
 Percobaan 3 : Nested IF untuk Mengecek Syarat Ujian Skripsi
 Pertanyaan 2 : Jelaskan maksud dari potongan kode berikut!
-                        if (bimbinganP1 >= 8 && bimbinganP2 >= 4) 
+                if (bimbinganP1 >= 8 && bimbinganP2 >= 4) 
 Jawaban : Kode if (bimbinganP1 >= 8 && bimbinganP2 >= 4) digunakan untuk memastikan mahasiswa sudah memenuhi syarat minimal log bimbingan pada kedua pembimbing sebelum dinyatakan lulus atau berhasil mendaftar ujian skripsi.
 
 Log bimbingan = jumlah pertemuan atau catatan kegiatan bimbingan antara mahasiswa dan dosen pembimbing yang digunakan sebagai bukti dan syarat kelulusan bimbingan skripsi.
+
+Percobaan 3 : Nested IF untuk Mengecek Syarat Ujian Skripsi
+Pertanyaan 3 : Bagaimana alur pemeriksaan syarat mahasiswa dari awal sampai akhir? Jelaskan secara runtut untuk semua kondisi!
+Jawaban : 
+1.	Program mulai dan minta input “Apakah mahasiswa sudah bebas kompen? (Ya/Tidak)”.
+2.	Jika menjawab “Tidak” output Gagal! Mahasiswa masih memiliki tanggungan kompen
+3.	Jika menjawab “Ya”  lanjut mengisi jumlah log bimbingan.
+4.	Program memeriksa:
+   - Apakah log bimbingan P1 ≥ 8
+   - Dan log bimbingan P2 ≥ 4
+5.	Jika dua-duanya memenuhi “Semua syarat terpenuhi. Mahasiswa boleh mendaftar ujian skripsi”
+6.	Jika dua-duanya kurang pesan = "Gagal! Log bimbingan P1 kurang dari 8 kali dan P2 kurang dari 4 kali"
+7.	Jika P1 saja kurang  pesan = "Gagal! Log bimbingan P1 belum mencapai 8 kali"
+8.	Jika P2 saja kurang pesan = "Gagal! Log bimbingan P2 belum mencapai 4 kali"
+
+
+
+
 
 
 
