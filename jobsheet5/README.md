@@ -14,5 +14,11 @@ Percobaan 2 : SWITCH-CASE untuk Mencetak KRS
 Pertanyaan 2 : Apa peran dari sintaks default pada struktur pemilihan SWITCH-CASE?
 Jawaban : default berfungsi untuk menangani semua nilai yang tidak sesuai dengan case yang ada, sehingga program tetap bisa memberikan respon yang logis dan tidak berhenti begitu saja.
 
+Percobaan 3 : Nested IF untuk Mengecek Syarat Ujian Skripsi
+Pertanyaan 1 : Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen?Mengapa demikian?
+Jawaban : Jadi, jika mahasiswa menjawab "No" (atau “Tidak”), maka kondisi bebasKompen.equalsIgnoreCase("Ya") bernilai false.
+Karena itu, program langsung masuk ke bagian else, sehingga pesan yang ditampilkan adalah : Gagal! Mahasiswa masih memiliki tanggungan kompen
+
+
 
 
