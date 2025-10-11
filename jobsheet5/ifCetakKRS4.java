@@ -16,8 +16,15 @@ public class ifCetakKRS4{
         }else{
             System.out.println("Registrasi ditolak. Silakan lunasi UKT terlebih dahulu");
         }
+
+        //modifikasi menggunakan struktur IF-ELSE yang telah dibuat ke dalam bentuk Ternary Operator
+        String hasil = uktLunas
+        ? "Pembayaran UKT terverifikasi\nSilakan cetak KRS dan minta tanda tangan DPA"
+        : "Registrasi ditolak. Silakan lunasi UKT terlebih dahulu";
+
+        System.out.println("\n--- Hasil dengan Ternary Operator ---");
+        System.out.println(hasil);
         sc.close();
     }
 }
-
 
