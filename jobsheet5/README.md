@@ -85,8 +85,8 @@ _Jawaban:_
 1. Jadi, jika mahasiswa menjawab "No" (atau “Tidak”), maka kondisi bebasKompen.equalsIgnoreCase("Ya") bernilai false.
 Karena itu, program langsung masuk ke bagian else, sehingga pesan yang ditampilkan adalah : Gagal! Mahasiswa masih memiliki tanggungan kompen.
 2. Kode if (bimbinganP1 >= 8 && bimbinganP2 >= 4) digunakan untuk memastikan mahasiswa sudah memenuhi syarat minimal log bimbingan pada kedua pembimbing sebelum dinyatakan lulus atau berhasil mendaftar ujian skripsi.
-
 Log bimbingan = jumlah pertemuan atau catatan kegiatan bimbingan antara mahasiswa dan dosen pembimbing yang digunakan sebagai bukti dan syarat kelulusan bimbingan skripsi.
+
 3. Alur pemeriksaan syarat mahasiswa dari awal sampai akhir :
    1.	Program mulai dan minta input “Apakah mahasiswa sudah bebas kompen? (Ya/Tidak)”.
    2.	Jika menjawab “Tidak” output Gagal! Mahasiswa masih memiliki tanggungan kompen
@@ -218,6 +218,7 @@ Code Akses WiFi Kampus
             input.close();
       } 
 }
+```
 
 
 
